@@ -20,7 +20,7 @@
 
   <v-navigation-drawer
     v-model="drawer"
-    :location="$vuetify.display.mobile ? 'bottom' : undefined"
+    :location="$vuetify.display.mobile ? 'left' : undefined"
     temporary
   >
     <v-list
@@ -37,20 +37,36 @@
       group: null,
       items: [
         {
-          title: 'Foo',
-          value: 'foo',
+          title: 'Buy',
+          value: 'buy',
         },
         {
-          title: 'Bar',
-          value: 'bar',
+          title: 'Rent',
+          value: 'rent',
         },
         {
-          title: 'Fizz',
-          value: 'fizz',
+          title: 'Projects',
+          value: 'projects',
         },
         {
-          title: 'Buzz',
-          value: 'buzz',
+          title: 'Developer',
+          value: 'developer',
+        },
+        {
+          title: 'Areas',
+          value: 'areas',
+        },
+        {
+          title: 'Services',
+          value: 'services',
+        },
+        {
+          title: 'blogs',
+          value: 'blogs',
+        },
+        {
+          title: 'More',
+          value: 'more',
         },
       ],
     }),

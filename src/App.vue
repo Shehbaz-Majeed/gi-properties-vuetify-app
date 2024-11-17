@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Header />
-    <v-main>
+    <v-main class="main-div-sm">
       <router-view />
     </v-main>
     <Footer />
@@ -10,8 +10,4 @@
 
 <script setup lang="ts">
   import Header from '@/components/Header.vue'
-  import Footer from '@/components/Footer.vue'
-  export default {
-    components: { Header, Footer },
-  }
 </script>
