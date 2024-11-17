@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as r,w as o,a as n}from"./index-eWhsi4cK.js";import{V as s}from"./VCard-D_AiL012.js";const c={};function l(d,e){return r(),a(s,null,{default:o(()=>e[0]||(e[0]=[n("h1",null,"Index Template",-1)])),_:1})}const i=t(c,[["render",l]]);export{i as default};

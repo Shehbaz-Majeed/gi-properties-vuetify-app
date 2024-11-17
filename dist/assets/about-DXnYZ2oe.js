@@ -1,0 +1,1 @@
+import{_ as e,c as a,w as o,o as r,a as s}from"./index-eWhsi4cK.js";import{V as n}from"./VCard-D_AiL012.js";const c={};function l(f,t){return r(),a(n,null,{default:o(()=>t[0]||(t[0]=[s("h1",null,"About Template",-1)])),_:1})}const d=e(c,[["render",l]]);export{d as default};
